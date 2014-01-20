@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>odt2html - Converts an OpenDocument Text according to an XSL sheet</title>
+</head>
+
+<body style="background-color: white">
+
+<p><a name="__index__"></a></p>
+<!-- INDEX BEGIN -->
+
+<ul>
+
+	<li><a href="#synopsis">SYNOPSIS</a></li>
+	<li><a href="#description">DESCRIPTION</a></li>
+	<li><a href="#author">AUTHOR</a></li>
+	<li><a href="#credits">CREDITS</a></li>
+	<li><a href="#copyright">COPYRIGHT</a></li>
+	<li><a href="#see_also">SEE ALSO</a></li>
+</ul>
+<!-- INDEX END -->
+
+<hr />
+<p>
+</p>
+<h1><a name="synopsis">SYNOPSIS</a></h1>
+<p>odt2html.py [-x sheet.xsl] [-o output | -a | -h] document.odt [document2.odt,...]</p>
+<p>
+</p>
+<hr />
+<h1><a name="description">DESCRIPTION</a></h1>
+<p><strong>odt2html.py</strong> is a python command line script that makes a basic conversion of a .odt 
+(OpenDocument) text into a HTML file. Other conversions are possible by changing the loaded XSL style 
+sheet.</p>
+<p>By default, the result is sent to the standard output.</p>
+<dl>
+<dt><strong><a name="item__2dxsl_filename_2exsl"><strong>-x filename.xsl ,  --xsl filename.xsl</strong></a></strong><br />
+</dt>
+<dd>
+Specifies an alternate XSL sheet to be used for the conversion. Default is to use the internal XSL data.
+</dd>
+<p></p>
+<dt><strong><a name="item__2doutput_filename_2exyz"><strong>-o filename.xyz,  --output filename.xyz</strong></a></strong><br />
+</dt>
+<dd>
+Specifies a file in which to write the output. The default is the standard
+output.
+</dd>
+<p></p>
+<dt><strong><a name="item__2doutput_filename_2exyz"><strong>-a,  --auto</strong></a></strong><br />
+</dt>
+<dd>
+Build the output file name from the input file, by removing the .odt suffix (if any) and adding
+the .html suffix. Usefull when several input files are provided.
+</dd>
+<p></p>
+<p></p></dl>
+<p>
+</p>
+<hr />
+<h1><a name="author">AUTHOR</a></h1>
+<p>Jérôme Dumonteil - <em><a href="mailto:jerome.dumonteil@arsaperta.com">jerome.dumonteil@arsaperta.com</a></em></p>
+<p>
+</p>
+<hr />
+<h1><a name="credits">CREDITS</a></h1>
+<p>This software uses the XSL file provided with the <strong>odfreader</strong> package by 
+Daniel Carrera <em><a href="mailto:daniel.carrera@zmsl.com">daniel.carrera@zmsl.com</a></em> and Alex Hudson <em><a href="mailto:alex@stratagia.co.uk">alex@stratagia.co.uk</a></em>.</p>
+<p>See <a href="http://trac.opendocumentfellowship.org/odf2html/wiki/odfreader">http://trac.opendocumentfellowship.org/odf2html/wiki/odfreader</a>.</p>
+<p>It's a complete rewrite in python of their <strong>odf2html</strong> Perl script, which is a component
+of the odfreader package.</p>
+<p>
+</p>
+<hr />
+<h1><a name="copyright">COPYRIGHT</a></h1>
+<p>Copyright 2006 by Ars Aperta <a href="http://arsaperta.com/en">http://arsaperta.com/en</a></p>
+<p>This is free software.  You may redistribute it under the terms
+of the GNU General Public License Version 2 or at your option
+any later version.</p>
+<p>
+</p>
+<hr />
+<h1><a name="see_also">SEE ALSO</a></h1>
+<p><em>odfread</em>
+<em>odf2html</em>
+<em>odfconvert</em></p>
+
+</body>
+
+</html>

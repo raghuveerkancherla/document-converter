@@ -1,0 +1,45 @@
+odt2html.py
+
+CONTENT
+
+	This package contains the following files:
+
+	- odt2html.py: a python script, including inline an XSL file coming
+	  from the OpenDocument Fellowship
+
+	- README: the present file
+
+	- odt2html.html: some documentation
+
+	- odt2html.py.sig: gpg signature of the python script
+    
+    - setup.py: python installation file
+    
+    - odt2html: script launcher
+
+SYSTEM REQUIREMENTS
+
+	- python, tests made with python 2.4.3, 2.4.1. Python 2.3+ should work
+	  on any platform.
+
+	- python modules: optparse, zipfile, libxml2, libxslt
+
+INSTALLATION
+
+	- verify you have libxml2 and libxslt (packages names should be 
+	  something like python2.4-libxml2 and python2.4-libxslt1)
+
+	- the script can be used standalone without any specific installation phase.
+    
+    - or install using setup.py: "sudo python ./setup.py install"
+
+CREDITS, AUTHOR, LICENSE
+
+	See the comments in odt2html.py file.
+
+URL
+
+    See: http://arsaperta.org/odftoolsen.html
+
+
+$Id: README 2935 2006-07-31 13:20:19Z  $

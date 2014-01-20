@@ -1,0 +1,30 @@
+Metadata-Version: 1.0
+Name: odt2html.py
+Version: 1.1
+Summary: Basic .odt to .html command line converter
+Home-page: http://arsaperta.org/odftoolsen.html
+Author: Jerome Dumonteil
+Author-email: jerome.dumonteil@arsaperta.com
+License: GNU GPL version 2
+Download-URL: http://arsaperta.org/odftoolsen.html
+Description: odt2html.py is a python command line script that
+        makes a basic conversion of a .odt (OpenDocument)
+        text into a HTML file. Other conversions are
+        possible by changing the loaded XSL style sheet.
+Platform: Any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Documentation
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Office/Business :: Office Suites
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Text Editors :: Word Processors
