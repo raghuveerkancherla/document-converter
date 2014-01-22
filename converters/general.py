@@ -11,12 +11,10 @@ class GeneralConverter:
     """
     def __init__(self, initial_format, final_format):
         """
-        The attributes initial_format and final_format get
-        initlalized in subclasses.
+        The attributes get initlalized in subclasses.
         """
         self.initial_format = initial_format
         self.final_format = final_format
-        self.file_batch = []
 
     def file_open(self, file_name):
         """
@@ -29,19 +27,6 @@ class GeneralConverter:
         text = obj.read()
         return text
 
-    def add_files(self, *files):
-        """
-        Adds files to file batch.
-        """
-        file_batch = self.file_batch
-        [file_batch.append(f) for f in files]
-
-    def get_batch(self):
-        """
-        Returns the name of the files in file_batch
-        """
-        return self.file_batch
-
     def _get_resultant_file_name(self, f):
         """
         Constructs the file name of the final file from initial file name
@@ -52,10 +37,3 @@ class GeneralConverter:
         file_name = os.path.basename(name)
         resultant_file_name = '.'.join([file_name, self.final_format])
         return resultant_file_name
-
-    def batch_convert(self):
-        """
-        Converts all the files in file_batch to the output format.
-        """
-        file_batch, converted_files = self.get_batch(), []
-        [converted_files.append(self.convert(f)) for f in file_batch]

@@ -1,9 +1,0 @@
-include README
-include COPYING
-include MANIFEST.in
-include odt2html.py
-include odt2html.html
-include odt2html
-include odt2html.py.sig
-include setup.py
-
