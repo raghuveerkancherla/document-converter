@@ -1,0 +1,10 @@
+This is a high-level API of FileManager
+
+Attributes- input_file, output_file, input_text, output_text
+
+KeyPoint- Should not distinguish between a URL and files on disk.
+	  For that to happen, 'file_open' should mean extracting text
+	  from the input file.
+
+Methods- input_file_open(), output_write(output_text)
+	
